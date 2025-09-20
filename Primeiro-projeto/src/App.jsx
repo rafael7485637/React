@@ -1,11 +1,14 @@
-function App() {
-  let message = "Hello, World!";
-  return (
-    <div>
-      <h1>{message}</h1>
-      <button onClick={function name() {menssage="olá, foi clicado!";}}>Mudar mensagem</button>
-    </div>
-  );
-}
+import "./App.css";
+import AddTask from "./components/AddTask";
+import Tasks from "./components/Tasks";
 
+function App() {
+  return(
+    <div className="app">
+      <h1 className="title">Gerenciador de Tarrefas</h1>
+      <Tasks />
+      <AddTask />
+    </div>
+  )
+}
 export default App;
