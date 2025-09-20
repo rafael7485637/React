@@ -1,6 +1,6 @@
-function Tasks() {
+function Tasks(props) {
     return(
-        <h1>casa</h1>
+       <h1>{props.tasks.map()}</h1>
     );
 }
 
