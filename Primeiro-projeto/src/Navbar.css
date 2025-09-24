@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.text{
+    color: white;
+}
+
+.navlinks{
+    display: flex; /* Exibe os itens em linha */
+    gap: 70px; /* Espaçamento entre os itens */
+    list-style: none; /* Remove os marcadores da lista */
+}
+
+.navlinks li a{
+    text-decoration: none;
+    color: white;
+}

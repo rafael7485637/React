@@ -1,10 +1,4 @@
-.app {
-    display: flex;
-    flex-direction: column; /*quebrar em colunas*/
-    justify-content: center;
-    align-items: center;
-}
-.title {
-    color: white;
-    margin: 20px 0;
+:root{
+    background-color: black;
+    padding: 0 20px;
 }
